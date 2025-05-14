@@ -1,10 +1,11 @@
 import { useState} from 'react';
+import {getBlogs} from '../../utilities/Blogs-api';
 
-export default function CreateBlogForm() {
+export default function CreateBlogForm( {setBlogs}) {
     const [ formData, setFormData] = useState ({
         title:'',
         body: '',
-        content:''
+        content:'Neuroscience'
     })
 
     function handleChange(e) {
@@ -15,8 +16,28 @@ export default function CreateBlogForm() {
         })
     }
 
+async function handleSubmit(e){
+    e.preventDefault(); // We don't want the page to reload
+    try {
+        const response = await fetch ('http://localhost:3000/blogs', {
+            method:"POST",
+            headers: { 'Content-Type': 'application/json'},
+            body: JSON.stringify(formData)
+        });
+
+        const data = await response.json(); //
+        const blogs =await getBlogs()
+        setBlogs(blogs)
+        console.log(data)
+;    }catch (error){
+    console.error(error);
+    }
+    
+}
+
+
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
         <input
         type="text" 
         placeholder="Enter Title"

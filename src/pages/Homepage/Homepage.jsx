@@ -12,8 +12,8 @@ export default function Homepage() {
 
   return (
     <div>
-      <CreateBlogForm />
-      <CreateBlogList blogs={blogs}/>
+      <CreateBlogForm setBlogs={setBlogs} />
+      <CreateBlogList blogs={blogs} />
     </div>
   )
 }
