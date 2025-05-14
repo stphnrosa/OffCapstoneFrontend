@@ -1,7 +1,11 @@
-import React from 'react'
+import CreateBlogListItem from "../BlogListItem/BlogListItem";
 
-export default function CreateBlogList() {
+export default function CreateBlogList({ blogs }) {
   return (
-    <div>CreateBlogList</div>
-  )
+  <div>
+    {blogs && blogs.map(blog => {
+        return <CreateBlogListItem key = {blog._id} blog = {blog} />
+    })}
+    </div>
+);
 }
