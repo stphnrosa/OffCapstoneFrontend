@@ -1,0 +1,34 @@
+:root {
+    --navbar-height: 64px;
+    --text-color: #333;
+    --hover-color: #666;
+    --primary-color: #000;
+    --primary-hover-color: #444;
+    --bg-white:#0077b6;
+    --spacing-xl: 24px;
+    --container-width: 1200px;
+    --transition-fast: 0.5s ease;
+    --menu-font-family: 'Inter', sans-serif;
+  }
+
+  .navbar{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #0077b6;
+    position: relative;
+    padding: 2rem 2rem;
+    border-bottom: 1px solid;
+    color: #f0f0ea;
+    width: 100vw;
+    top:0;
+    left:0;
+  }
+
+  .navbar a{
+    color: #f0f0ea
+  }
+    
+
+  .nav-links li a:hover{
+text-decoration: underline;
+  }
