@@ -1,14 +1,15 @@
-import {useState, useEffect} from'react'
+import {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 
-export default function BlogShowpage() {
+
+export default function BlogShowPage() {
     const {id} = useParams();
     const [post, setPost] = useState(null);
   
 useEffect(() => {
     async function fetchPost(){
         try {
-            const res= await fetch(`http://localhost:3000/blog/${id}`)
+            const res= await fetch(`http://localhost:3001/blogs/${id}`)
             const data = await res.json();
             setPost(data)
         } catch (error) {
@@ -23,7 +24,7 @@ useEffect(() => {
   return (
     <div>
         <h1>{post.title}</h1>
-        <p>{post.body || post.content}</p>
+        <p>{post.content}</p>
     </div>
   )
 }
