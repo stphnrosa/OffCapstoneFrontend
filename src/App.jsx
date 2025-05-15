@@ -2,6 +2,7 @@ import{ Routes, Route} from 'react-router-dom';
 import Homepage from './pages/Homepage/Homepage';
 import Aboutpage from './pages/Aboutpage/Aboutpage';
 import Blogpage from './pages/Blogpage/Blogpage'
+import BlogEditpage from './pages/BlogEditpage/BlogEditpage';
 import Assessmentpage from './pages/AssessmentPage/AssessmentPage'
 import Navbar from './components/Navbar/Navbar'
 
@@ -16,6 +17,9 @@ export default function App() {
       <Route path='/About' element={<Aboutpage />} />
       <Route path='/Blog' element={<Blogpage />} />
       <Route path='/Assessment' element= {<Assessmentpage />} />
+      <Route path='/blogs/edit/:id' element={<BlogEditpage />} />
+      {/* <Route path='/blogs/:id' element={<BlogShowpage />} /> */}
+
     
     </Routes>
     </>
