@@ -15,7 +15,7 @@
     display:flex;
     justify-content: space-evenly;
     background-color: #0077b6;
-    position: relative;
+    position: fixed;
     padding: 2rem 2rem;
     border-bottom: 1px solid;
     color: #f0f0ea;

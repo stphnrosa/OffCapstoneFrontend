@@ -1,7 +1,7 @@
 //reference: https://buckhouse.medium.com/beginner-react-nav-bar-tutorial-e30035e6c89e
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import './Navbar.css'
 
 export default function Navbar() {
   return (
