@@ -6,6 +6,7 @@ import './Navbar.css'
 export default function Navbar() {
   return (
     <nav className="navbar">
+      <img src=""></img>
       <Link to='/'>Home</Link> | {" "}
       <Link to='/About'>About</Link> | {" "}
       <Link to='/Assessment'>Assessment</Link> | {" "}

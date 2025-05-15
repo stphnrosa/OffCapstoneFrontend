@@ -7,14 +7,16 @@ export default function BlogEditpage() {
   
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
-  
+  const [body, setBody] = useState('');
+
   useEffect(() => {
     async function fetchBlog(){
         try {
-            const res= await fetch(`http://localhost:3000/blogs${id}`)
+            const res= await fetch(`http://localhost:3000/blogs/${id}`)
             const blog= await res.json();
             setTitle(blog.title)
             setContent(blog.content)
+            setBody(blog.body)
 
         } catch (error) {
             console.error('Error fetching blog:', error)
@@ -29,7 +31,7 @@ export default function BlogEditpage() {
         const res = await fetch(`http://localhost:3000/blogs/${id}`,{
         method:"PUT",
         headers:{ 'Content-Type': 'application/json'},
-        body: JSON.stringify({ title, content }),
+        body: JSON.stringify({ title, content, body }),
         })
         if (res.ok) {
             navigate('/Blog')
@@ -53,7 +55,12 @@ export default function BlogEditpage() {
         <textarea
          placeholder="Content"
          value={content}
-         onChange={(e => setContent(e.target.value))}
+         onChange={(e) => setContent(e.target.value)}
+         required />
+         <textarea
+         placeholder="Body"
+         value={body}
+         onChange={(e => setBody(e.target.value))}
          required />
          <button type="submit">Update</button>
         </form>

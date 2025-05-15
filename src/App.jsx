@@ -4,6 +4,7 @@ import Aboutpage from './pages/Aboutpage/Aboutpage';
 import Blogpage from './pages/Blogpage/Blogpage'
 import BlogEditpage from './pages/BlogEditpage/BlogEditpage';
 import Assessmentpage from './pages/AssessmentPage/AssessmentPage'
+import BlogShowpage from './pages/BlogShowPage/BlogShowPage';
 import Navbar from './components/Navbar/Navbar'
 
 
@@ -17,8 +18,8 @@ export default function App() {
       <Route path='/About' element={<Aboutpage />} />
       <Route path='/Blog' element={<Blogpage />} />
       <Route path='/Assessment' element= {<Assessmentpage />} />
-      <Route path='/blogs/edit/:id' element={<BlogEditpage />} />
-      {/* <Route path='/blogs/:id' element={<BlogShowpage />} /> */}
+      <Route path='/blogs/:id/edit' element={<BlogEditpage />} />
+      <Route path='/blogs/:id' element={<BlogShowpage />} />
 
     
     </Routes>

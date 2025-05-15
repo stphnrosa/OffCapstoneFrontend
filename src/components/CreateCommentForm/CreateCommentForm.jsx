@@ -32,7 +32,7 @@ export default function CreateCommentForm({ blogId, setComments }) {
         value={formData.body}
         onChange={handleChange}
       />
-      <button type="submit">Post</button>
+      <button        type="submit">Post</button>
     </form>
   );
 }

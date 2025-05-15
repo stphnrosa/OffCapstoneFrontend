@@ -1,32 +1,41 @@
 import React from 'react'
-
-export default function Homepage() {
-  return (
-    <div>Homepage</div>
-  )
-}
-
-
-
-
-
-// import { useState, useEffect} from 'react'
-// import { getBlogs } from '../../utilities/Blogs-api';
-// import CreateBlogForm from '../../components/CreateBlogForm/CreateBlogForm'
-// import CreateBlogList from '../../components/CreateBlogList/CreateBlogList'
-
+import HeroPage from '../../components/HeroPage/HeroPage.jsx'
 
 // export default function Homepage() {
-//   const [blogs, setBlogs] = useState(null);
-
-//   useEffect(() => {
-//     getBlogs().then(data => setBlogs(data));
-//   }, []) // SECOND ARGUMENT IS AN EMPTY DEPENDENCY ARRAY AS WE ONLY WANT THE USE EFFECT TO BE USED ONCE.
-
 //   return (
 //     <div>
-//       <CreateBlogForm setBlogs={setBlogs} />
-//       <CreateBlogList blogs={blogs} />
+//     <HeroPage />
 //     </div>
+
 //   )
 // }
+export default function Homepage() {
+  return (
+    <div
+      style={{
+        textAlign: "center",
+        border: "5px solid",
+        padding: "10px",
+        backgroundColor: "#0096c7",
+        minHeight: "100vh",
+      }}
+    >
+      <div
+        style={{
+          backgroundColor: "#fffbf0",
+          padding: "40px",
+          borderRadius: "15px",
+          textAlign: "left",
+          color: "#0077b6",
+          width: "50%",
+          marginTop:'10px'
+        }}
+      >
+        <h1></h1>
+        <br></br>
+        <HeroPage />
+      </div>
+      <br></br>
+    </div>
+  );
+}
