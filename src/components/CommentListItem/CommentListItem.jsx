@@ -20,7 +20,7 @@ console.error("Failed to delete comment");
 
   return (
     <div>
-   <p> {comment.body}</p>
+   <p> {comment.content}</p>
    <button onClick={handleDelete}>Delete</button>
    </div>
   )

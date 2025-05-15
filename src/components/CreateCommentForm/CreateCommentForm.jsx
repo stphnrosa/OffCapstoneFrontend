@@ -10,10 +10,11 @@ export default function CreateCommentForm({ blogId, setComments }) {
   async function handleSubmit(e) {
     e.preventDefault();
     try {
+      const commentData = { content:formData.body, blogId }
       const response = await fetch(`http://localhost:3000/comments`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...formData, blogId }),
+        body: JSON.stringify(commentData),
       });
       const newComment = await response.json();
       setComments((prev) => [...prev, newComment]);
