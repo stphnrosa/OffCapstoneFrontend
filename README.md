@@ -2,6 +2,9 @@
 Create a full-stack MERN web application using MongoDB, Express, React, and Node.js.
 Cortexi is a cognitive tracker that monitors, enhances and maintains brain health.
 
+## Backen Repo
+https://github.com/stphnrosa/OffCapstoneBackend
+
 ## Features
 Cortexi currently includes:
 
@@ -9,8 +12,7 @@ Cortexi currently includes:
      - Individuals can share new discoveries, share personal stories, and learn breaking scientific news.
      - Read and comment on others' posts to foster community learning and support. 
 
-Coming soon:
-
+## Future Features
   - Cognitive Assessment 
      - Stroop Effect test to assess cognitive performance. 
      - Receive a baseline score to begin tracking your overall cognitive function(clarity, focus and reaction time).
@@ -18,6 +20,17 @@ Coming soon:
      - View performace trends via charts and dashboards. 
      - Monitor improvement or decline over time.
 
+## Installation instructions
+1. Clone the Repository
+ - git clone https://github.com/stphnrosa/Rosa_Stephanie_Cortexi_Capstone.git
+2. Navigate into the directory
+ - cd Rosa_Stephanie_Cortexi_Capstone
+3. Install dependencies
+ - npm install
+4. Start the development server
+ - npm start
+
+ *No API Keys required*
 
 ## Questions for Guidance
 Did you deliver a project that met all of the technical requirements?
