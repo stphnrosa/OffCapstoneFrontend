@@ -1,14 +1,6 @@
 import React from 'react'
 import HeroPage from '../../components/HeroPage/HeroPage.jsx'
 
-// export default function Homepage() {
-//   return (
-//     <div>
-//     <HeroPage />
-//     </div>
-
-//   )
-// }
 export default function Homepage() {
   return (
     <div

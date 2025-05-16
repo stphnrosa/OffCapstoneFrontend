@@ -9,7 +9,7 @@ export default function BlogShowPage() {
 useEffect(() => {
     async function fetchPost(){
         try {
-            const res= await fetch(`http://localhost:3001/blogs/${id}`)
+            const res= await fetch(`http://localhost:3000/blogs/${id}`)
             const data = await res.json();
             setPost(data)
         } catch (error) {
