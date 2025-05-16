@@ -75,6 +75,7 @@ Discuss additional features that could be added to the application in the future
 Adhere to Agile principles and the Scrum framework. Perform stand-up sessions (with an instructor) when possible.(1%)
 Successfully track your project using a software similar to Jira.(1%)
 Build your application primarily with TypeScript. (3%)
+
 ## Technologies Used
 HTML CSS Vanilla JavaScript React
 
