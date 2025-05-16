@@ -1,5 +1,3 @@
-import { useState, useEffect } from "react";
-// import BlogEditpage from "../../pages/BlogEditpage/BlogEditpage";
 import { Link } from "react-router-dom";
 
 export default function BlogListItem({ blog, onDelete }) {
@@ -73,25 +71,3 @@ export default function BlogListItem({ blog, onDelete }) {
 
 
 
-
-//  {/* <h3>Comments:</h3>
-//   <CommentList comments={comments} setComments={setComments} />
-//   < CreateCommentForm blogId={blog._id} setComments={setComments} /> */}
-
-// import CommentList from "../CreateCommentList/CommentList"
-// import CreateCommentForm from "../CreateCommentForm/CreateCommentForm"
-
-// / const [comments, setComments] = useState([]);
-
-// useEffect(() => {
-//   async function fetchComments() {
-//     try {
-//       const res = await fetch (`http://localhost:3000/comments?blogId=${blog._id}`)
-//       const data = await res.json();
-//       setComments(data);
-//     } catch (err) {
-//       console.error('Error fetching comments', err);
-//     }
-//   }
-// fetchComments();
-// }, [blog._id]);
