@@ -1,20 +1,22 @@
-## Final Capstone
-Create a full-stack web application using MongoDB, Express, React, and Node (MERN).
+## Cortexi- Final Capstone Project
+Create a full-stack MERN web application using MongoDB, Express, React, and Node.js.Cortexi is a cognitive tracker that monitors, enhances and maintains brain health.
 
 ## Features
-Cortexi is a cognitive tracker that monitors, enhances and maintains brain health.
+Cortexi currently includes:
 
-Features of Cortexi currently includes:
-
-  - A community blog center where individuals can share new discoveries, share personal stories, and learn breaking scientific news.
+  - A Community Blog Center
+     - Individuals can share new discoveries, share personal stories, and learn breaking scientific news.
+     - Read and comment on others' posts to foster community learning and support. 
 
 Coming soon:
 
-  - Cognitive Assessment feature - Stroop Effect test to assess cognitive performance. 
+  - Cognitive Assessment 
+     - Stroop Effect test to assess cognitive performance. 
      - Receive a baseline score to begin tracking your overall cognitive function(clarity, focus and reaction time).
-  - Progress Tracker feature - Tracks your performance across multiple assessments.
-     - View progress over time through dynamic charts and visual summaries 
-     - Key goal: identifying trends in cognitive imrovement or decline.
+  - Progress Tracker
+     - View performace trends via charts and dashboards. 
+     - Monitor improvement or decline over time.
+
 
 ## Questions for Guidance
 Did you deliver a project that met all of the technical requirements?
@@ -77,7 +79,15 @@ Successfully track your project using a software similar to Jira.(1%)
 Build your application primarily with TypeScript. (3%)
 
 ## Technologies Used
-HTML CSS Vanilla JavaScript React
+Frontend
+  - React
+  - React Router
+  - CSS Modules
+Tools
+  - Postman
+  - Git
+  - Vite
+ 
 
 ## Note
 This project is for educational purposes.
