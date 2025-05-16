@@ -4,13 +4,17 @@ Create a full-stack web application using MongoDB, Express, React, and Node (MER
 ## Features
 Cortexi is a cognitive tracker that monitors, enhances and maintains brain health.
 
-Features of Cortexi currently includes
+Features of Cortexi currently includes:
 
-a community blog center where individuals can share new discoveries, share personal stories, and learn breaking scientific news.
+  - A community blog center where individuals can share new discoveries, share personal stories, and learn breaking scientific news.
+
 Coming soon:
 
-Cognitive Assessment feature - Stroop Effect test to assess cognitive performance. - Receive a baseline score to begin tracking your overall cognitive function(clarity, focus and reaction time).
-Progress Tracker feature - Tracks your performance across multiple assessments. - View progress over time through dynamic charts and visual summaries - Key goal: identifying trends in cognitive imrovement or decline
+  - Cognitive Assessment feature - Stroop Effect test to assess cognitive performance. 
+     - Receive a baseline score to begin tracking your overall cognitive function(clarity, focus and reaction time).
+  - Progress Tracker feature - Tracks your performance across multiple assessments.
+     - View progress over time through dynamic charts and visual summaries 
+     - Key goal: identifying trends in cognitive imrovement or decline.
 
 ## Questions for Guidance
 Did you deliver a project that met all of the technical requirements?

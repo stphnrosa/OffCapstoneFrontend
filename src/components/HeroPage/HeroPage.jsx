@@ -10,7 +10,7 @@ export default function HeroPage() {
     <div className="hero-container">
       <h1> Cortexi: Track, Train and Transform your mind </h1>
       <p> What are you waiting for? Start today.</p>
-      <div className="hero-btns">
+      {/* <div className="hero-btns">
         <button 
         className='btns'
         buttonStyle="btn--outline"
@@ -25,7 +25,7 @@ export default function HeroPage() {
          to="/About">
           Learn More
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }
