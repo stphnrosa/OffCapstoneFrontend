@@ -25,15 +25,6 @@ export default function AboutPage() {
       >
         <h1>Cortexi </h1>
         <br></br>
-        {/* <img
-          src="https://p.turbosquid.com/ts-thumb/oL/1Rz1Gg/GQr0EcBV/neuronsx/jpg/1389385522/300x300/sharp_fit_q85/741004d5239494af550d66ed767fcc342f1666fc/neuronsx.jpg" */}
-          {/* style={{
-            borderRadius: "10%",
-            width: "600px",
-            height: "210px",
-            align: "center",
-          }}
-        ></img> */}
         <h2>About Cortexi</h2>
         <p style={{ textAlign: "left" }}>
           {" "}

@@ -1,10 +1,3 @@
-// import React from 'react'
-
-// export default function Blogpage() {
-//   return (
-//     <div>Blogpage</div>
-//   )
-// }
 
 import { useState, useEffect} from 'react'
 import { getBlogs } from '../../utilities/Blogs-api';
@@ -26,8 +19,6 @@ export default function Blogpage() {
       textAlign: "center",
       border: "5px solid",
       padding: "10px",
-      // backgroundColor: "#0096c7",
-      // minHeight: "100vh",
     }}>
       <CreateBlogForm setBlogs={setBlogs} />
       <CreateBlogList blogs={blogs} />

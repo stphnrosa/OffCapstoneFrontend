@@ -89,6 +89,10 @@ Tools
   - Git
   - Vite
  
-
+## Resources
+ - reference: https://www.shecodes.io/athena/261833-how-to-display-hello-world-inside-a-box-using-react#google_vignette
+ - reference:https://www.w3schools.com/howto/howto_css_hero_image.asp
+ - reference:https://www.youtube.com/watch?v=I2UBjN5ER4s
+ - reference: https://buckhouse.medium.com/beginner-react-nav-bar-tutorial-e30035e6c89e
 ## Note
 This project is for educational purposes.
