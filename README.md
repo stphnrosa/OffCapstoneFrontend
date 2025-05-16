@@ -2,7 +2,7 @@
 Create a full-stack MERN web application using MongoDB, Express, React, and Node.js.
 Cortexi is a cognitive tracker that monitors, enhances and maintains brain health.
 
-## Backen Repo
+## Backend Repo
 https://github.com/stphnrosa/OffCapstoneBackend
 
 ## Features

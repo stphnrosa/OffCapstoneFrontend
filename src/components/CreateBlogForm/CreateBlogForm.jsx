@@ -37,7 +37,7 @@ export default function CreateBlogForm({ setBlogs }) {
     <form onSubmit={handleSubmit}>
       <div>
         {" "}
-        <h1>Create a blog!</h1>
+        <h1>Welcome to our Community blog!</h1>
         <h4>Contribute to the growing conversation around cognitive health. Share your insights, research, or experiences with the Cortexi community.</h4>
       </div>
       <input
